@@ -1,0 +1,22 @@
+{
+  "name": "student-register",
+  "version": "1.0.0",
+  "description": "Node.js application for managing teachers assigned to a given lesson, together with student attendance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NalinKane/student-register.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NalinKane/student-register/issues"
+  },
+  "homepage": "https://github.com/NalinKane/student-register#readme",
+  "dependencies": {
+    "boxen": "^4.2.0"
+  }
+}
