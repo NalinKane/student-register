@@ -3,7 +3,7 @@ const boxen = require("boxen");
 class Lesson {
   constructor(teacher, studentList) {
     if (!teacher) {
-      throw new Error("Please provide a teacher name`");
+      throw new Error("Please provide a teacher");
     }
 
     if (!studentList) {
