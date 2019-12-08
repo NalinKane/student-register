@@ -1,7 +1,16 @@
-
 class Teacher {
-    constructor(name, subject) {
-        this.name = name;
-        this.subject = subject;
+  constructor(subject, name) {
+    if (!subject) {
+      throw new Error("Please provide a subject");
     }
+
+    if (!name) {
+      throw new Error("Please provide a teacher name`");
+    }
+
+    this.subject = subject;
+    this.name = name;
+  }
 }
+
+module.exports = Teacher;
